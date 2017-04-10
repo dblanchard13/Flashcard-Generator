@@ -1,0 +1,22 @@
+{
+  "name": "flashcards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamZombiez/Flashcard-Generator.git"
+  },
+  "author": "ds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamZombiez/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/IamZombiez/Flashcard-Generator#readme",
+  "dependencies": {
+    "inquirer": "^3.0.6"
+  }
+}
