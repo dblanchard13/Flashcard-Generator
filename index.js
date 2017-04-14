@@ -5,25 +5,17 @@ var fs = require('fs')
 // Basic Card Constructor - Front/Back
 
 function BasicCard(front, back){
-	this.front = front; // process 3 
-	this.back = back; // process 4 
+	this.front = front;
+	this.back = back;  
 }
 
-// ClozeCard Constructor - Text/Close Argument
+// ClozeCard Constructor - full string, answer, partial question string
 
 function ClozeCard(full, answer, partial){
 	this.full = full;
 	this.answer = answer;
 	this.partial = partial;
 }
-
-// NODE CLI Read input?
-
-
-//Write File?
-
-
-//Read File?
 
 
 function one (){
@@ -69,7 +61,7 @@ function two (){
 
 	{
 		type:"input",
-		name:"partial"
+		name:"partial",
 		message:"cloze phrase goes here"
 	}
 
